@@ -1,0 +1,67 @@
+@import'variables';
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body {
+    overflow-x: hidden;
+}
+.wrapper {
+    height: 100%;
+    background-image: linear-gradient(to right, $black 50%, $red 50%);
+    color: white;
+    padding: 50px 9%;
+    font-family: $font2;
+}
+.text-center{
+    display: flex;
+    justify-content: center;
+}
+.start-game {
+    padding: 100px 0;
+    padding-right: 20px;
+    .btn {
+        padding: 20px 50px;
+        font-size: 40px;
+        outline: none;
+        border: none;
+        color: $white;
+        font-family: $font;
+        background: transparent;
+        text-decoration: underline;
+
+        &:hover {
+            text-decoration: none;
+            box-shadow:         3px 3px 5px 6px rgba(204, 204, 204, 0.555);
+        }
+    }
+}
+.game-title {
+    font-family: $font;
+    font-size: 70px;
+    line-height: 100px;
+    text-align: center;
+    color: white;
+    
+    
+}
+.intro {
+    h1{
+        padding-bottom: 30px;
+        color: $yellow;
+    }
+    h2 {
+        color: $blue;
+    }
+}
+.list-title {
+    color: $blue;
+}
+.list {
+    
+    margin-top: 20px;
+    color: yellow;
+    li{
+        margin-top: 20px;
+    }
+}
